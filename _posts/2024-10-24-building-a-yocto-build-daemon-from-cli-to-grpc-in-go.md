@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SMIDR: Rethinking Embedded Linux Builds with Containers and gRPC"
-date: "2024-10-024 7:25:00 -0400"
+date: "2024-10-24 7:25:00 -0400"
 categories: ["development", "life", "education"]
 tags: ["development",  "life", "education", "electronics"]
 ---
