@@ -2,8 +2,8 @@
 layout: post
 title: "My Journey Continues"
 date: "2023-08-05 7:25:00 -0400"
-categories: ["development", "life", "education"]
-tags: ["development",  "life", "education", "electronics"]
+categories: ["Career", "Job Search"]
+tags: ["job search", "remote work", "career change"]
 ---
 I have officially begun my journey to begin a new development job.  I will be at my current company 13 years this September, the time to move on is soon.  There many reasons for this and in the end it will be the best for the family.  The process has not been an easy one so far.
 

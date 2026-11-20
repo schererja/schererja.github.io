@@ -2,8 +2,8 @@
 layout: post
 title: "What Is This?"
 date: "2023-06-27 7:25:00 -0400"
-categories: ["development", "life", "education"]
-tags: ["development", "perl", "life", "education", "electronics"]
+categories: ["Personal"]
+tags: ["las vegas", "homelab", "proxmox", "react", "next.js"]
 ---
 Another day another dollar?  Well not really but hopefully soon enough that will be the case.
 

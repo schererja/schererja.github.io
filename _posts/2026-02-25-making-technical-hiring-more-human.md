@@ -3,8 +3,8 @@ layout: post
 title: "Making Technical Hiring More Human"
 date: 2026-02-25 09:11:47 -0800
 description: "What interviewers and recruiters can do to make a long job search a little easier."
-categories: ["Career"]
-tags: ["hiring","interviews","job search"]
+categories: ["Career", "Hiring"]
+tags: ["hiring", "interviews", "job search", "candidate experience"]
 ---
 
 A long job search can wear people down. Applications, interviews, and uncertainty take up time and energy, especially when someone has recently lost a job. If you know someone in that position, it’s worth checking in on how they’re doing.

@@ -3,8 +3,8 @@ layout: post
 title: "The Engineering Work You Don’t See"
 date: 2025-11-19 15:43:44 -0800
 description: "What embedded, automation, and internal tools engineers can show when the systems they build aren’t public."
-categories: ["Engineering"]
-tags: ["embedded linux","internal tools","software engineering"]
+categories: ["Engineering", "Software Development"]
+tags: ["embedded linux", "internal tools", "automation", "portfolios"]
 ---
 
 A lot of software work is hard to show in a portfolio. If you build internal tools, work on embedded systems, or automate a process inside a company, the people who see the result may be the only people who can use it. Sometimes the details are confidential. The work still matters to the people who rely on it every day.

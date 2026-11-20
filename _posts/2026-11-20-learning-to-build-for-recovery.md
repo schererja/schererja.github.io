@@ -3,8 +3,8 @@ layout: post
 title: "Learning to Build for Recovery"
 date: 2026-11-20
 description: "What testing VM recovery with Terraform, OpenTofu, and Ansible has taught me about operating infrastructure."
-categories: [Engineering, Infrastructure]
-tags: [terraform, opentofu, ansible, recovery, hybrid-infrastructure]
+categories: ["Engineering", "Infrastructure"]
+tags: ["infrastructure as code", "terraform", "opentofu", "ansible", "recovery", "hybrid infrastructure"]
 ---
 
 At work, I’ve been using Terraform/OpenTofu and Ansible, and it’s been a great way to learn how infrastructure is built and managed.

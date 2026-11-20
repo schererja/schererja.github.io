@@ -2,8 +2,8 @@
 layout: post
 title: "What a wonderful world."
 date: "2022-06-11 7:25:00 -0400"
-categories: ["development", "life", "education"]
-tags: ["development", "perl", "life", "education", "electronics"]
+categories: ["Personal"]
+tags: ["electronics", "career path", "learning"]
 ---
 
 My name is Jason Scherer and welcome to my little world on the internet.To begin on my journey into computers, electronics, and finally programming. My journey started very early in life, so shall we begin?

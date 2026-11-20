@@ -2,8 +2,8 @@
 layout: post
 title: "What Next? Goals for 2023"
 date: "2022-12-30 15:35:00 -0400"
-categories: ["development", "life", "education", "business"]
-tags: ["development", "life", "education", "projects", "goals"]
+categories: ["Personal"]
+tags: ["goals", "side projects", "intrik8 labs"]
 ---
 
 I've recently been thinking a lot of what I want to do this next year.  I think this is a good time to start working on this and getting it into writing.

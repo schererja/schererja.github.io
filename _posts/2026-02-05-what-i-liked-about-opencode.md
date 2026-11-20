@@ -3,8 +3,8 @@ layout: post
 title: "What I Liked About OpenCode"
 date: 2026-02-05 09:37:24 -0800
 description: "A first impression of OpenCode from using AI for project planning and development."
-categories: ["Engineering","AI"]
-tags: ["opencode","ai","developer tools"]
+categories: ["Engineering", "AI"]
+tags: ["ai", "opencode", "developer tools", "ai-assisted development"]
 ---
 
 I’ve tried a few different tools for planning and developing projects with AI. OpenCode stood out because its interface was quick to use and I could work with different models in the same place. I could also try options that were free to use during my evaluation, which made it easier to experiment.

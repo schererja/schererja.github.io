@@ -2,6 +2,8 @@
 title: "Building My Learning Workflow: A Structured Approach to Leveling Up"
 date: 2025-11-19
 layout: post
+categories: ["Engineering", "Software Development"]
+tags: ["learning", "developer workflow", "react", "next.js"]
 ---
 
 Over the past several months, I’ve been focusing on rebuilding and sharpening my full-stack development skills in a more systematic way. As someone who has spent over a decade working across both software and hardware engineering—with my current role centered around hardware test automation—I wanted a workflow that reflects how I actually learn, build, and iterate.

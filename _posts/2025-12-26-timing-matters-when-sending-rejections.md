@@ -3,8 +3,8 @@ layout: post
 title: "Timing Matters When Sending Rejections"
 date: 2025-12-26 09:57:06 -0800
 description: "A small change hiring teams can make when scheduling automated rejection emails."
-categories: ["Career"]
-tags: ["hiring","job search","communication"]
+categories: ["Career", "Hiring"]
+tags: ["hiring", "job search", "candidate experience", "communication"]
 ---
 
 Rejection emails are part of applying for work, and I understand why companies automate them. I’ve been thinking about one detail those systems could handle better: when the email goes out.

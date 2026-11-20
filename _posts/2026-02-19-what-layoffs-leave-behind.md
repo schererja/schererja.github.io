@@ -3,8 +3,8 @@ layout: post
 title: "What Layoffs Leave Behind"
 date: 2026-02-19 09:31:30 -0800
 description: "Why leaders should plan for the uncertainty and workload that remain after layoffs."
-categories: ["Career"]
-tags: ["layoffs","leadership","workplace"]
+categories: ["Career", "Workplace"]
+tags: ["layoffs", "leadership", "communication"]
 ---
 
 A video about employees waiting for layoff news at Amazon got me thinking about what happens before and after an announcement. It’s hard to focus on your work when you don’t know if your job, your team, or the project you’re on will still be there the next day.

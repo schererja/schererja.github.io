@@ -3,8 +3,8 @@ layout: post
 title: "Giving AI Enough Context to Help"
 date: 2026-01-17 09:45:06 -0800
 description: "How I use AI during project planning, and what context still can’t do on its own."
-categories: ["Engineering","AI"]
-tags: ["ai","planning","developer tools"]
+categories: ["Engineering", "AI"]
+tags: ["ai", "project planning", "developer tools", "ai-assisted development"]
 ---
 
 I’ve found AI most helpful on side projects when I bring it into the planning stage. Sometimes I want a second opinion on how a feature fits together. Sometimes I want help thinking through what someone using the software would actually need. In either case, the more useful conversation starts when I can explain the problem and let the tool ask about the parts I haven’t thought through yet.

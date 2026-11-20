@@ -3,8 +3,8 @@ layout: post
 title: "Building a Homelab to Learn What We Depend On"
 date: 2026-11-13
 description: "Why I’m building a homelab to learn self-hosting, practice recovery, and test the applications I’m building."
-categories: [Engineering, Infrastructure]
-tags: [homelab, ansible, terraform]
+categories: ["Engineering", "Infrastructure"]
+tags: ["homelab", "self-hosting", "infrastructure as code", "terraform", "ansible"]
 ---
 
 When an online service I rely on goes down, I’m reminded how much of our work and daily life depends on systems we don’t control. Cloud services are useful, but outages disrupt real work. That has me thinking about what it takes to host software ourselves.

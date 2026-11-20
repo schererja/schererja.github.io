@@ -3,8 +3,8 @@ layout: post
 title: "Closing the Loop With Job Candidates"
 date: 2025-12-12 07:28:17 -0800
 description: "What a timely response can mean after someone has invested time in a hiring process."
-categories: ["Career"]
-tags: ["hiring","job search","communication"]
+categories: ["Career", "Hiring"]
+tags: ["hiring", "job search", "candidate experience", "communication"]
 ---
 
 One of the most frustrating parts of a job search is the silence. I understand that some openings get far more applicants than a hiring team can respond to individually. A short email telling someone the company has decided to move on still gives them closure and lets them concentrate on other opportunities.
