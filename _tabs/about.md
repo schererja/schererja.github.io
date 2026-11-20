@@ -2,40 +2,20 @@
 title: About
 icon: fas fa-info-circle
 order: 4
+description: "Jason Scherer writes about backend software, embedded Linux, and what it takes to keep systems running."
 ---
 
-# Jason Scherer - Senior Software Engineer
+I’m Jason Scherer, a software engineer based in Las Vegas. A lot of my work happens behind the scenes. I build backend services, work with embedded Linux, and write tools that help people build software, test hardware, and figure out what went wrong.
+{: .lead }
 
-I am an accomplished software engineer with a robust foundation in both software development and hardware systems. My expertise spans full-stack application development, embedded systems integration, and infrastructure optimization. I excel at problem-solving through systematic analysis and have a proven track record of adapting to new technologies and methodologies.
+I like getting into the details of how systems work. Lately that’s meant provisioning infrastructure with Terraform and OpenTofu, configuring it with Ansible, and testing what actually happens when I have to bring a service back. At home, I’m building a homelab so I can practice that work and test the software I’m building.
 
-## Core Competencies
+This blog is where I write down what I’m learning, which decisions made a difference, and what I’d do differently next time.
 
-I bring strong technical communication skills to cross-functional teams, with experience delivering formal presentations and comprehensive technical documentation. My approach to software development emphasizes both collaborative teamwork and independent project execution, consistently delivering high-quality solutions.
+## Start here
 
-### Technical Expertise
+- [Learning to Build for Recovery]({{ '/posts/learning-to-build-for-recovery/' | relative_url }}) covers what rebuilding a VM taught me about getting a service back.
+- [Building a Homelab to Learn What We Depend On]({{ '/posts/building-a-homelab-to-learn-what-we-depend-on/' | relative_url }}) explains why I want to run and test some of my own infrastructure.
+- [The Engineering Work You Don’t See]({{ '/posts/the-engineering-work-you-dont-see/' | relative_url }}) is about the work that’s hard to show when the systems you build are internal or embedded.
 
-- **Languages:** JavaScript, C#/.NET, Python, Java, Ruby, Go
-- **Focus Areas:** Hardware integration, embedded systems, infrastructure development
-- **Specializations:** Data synchronization, application architecture, systems optimization
-
-## Education
-
-| Institution                         | Degree/Certification                                      |
-| ----------------------------------- | --------------------------------------------------------- |
-| Thomas Edison State University      | Bachelor of Science in Applied Science and Technology    |
-| Waukesha County Technical College   | Associate in Business - Web and Software Developer       |
-|                                     | Technical Diploma - Software Development Specialist      |
-|                                     | Associate of Electronics - Computer Hardware Technician  |
-
-## Professional Experience
-
-| Position                                   | Key Responsibilities                                                                   |
-| ------------------------------------------ | -------------------------------------------------------------------------------------- |
-| **Senior Software Engineer (Hardware Focused)** | Lead hardware integration initiatives and embedded systems optimization projects.     |
-| *2024 - Present*                          | Drive architectural decisions for hardware-software interface development.            |
-| **Software Engineer II**                  | Architected and delivered enterprise applications as a key member of the IT team.     |
-| *2022 - 2024*                            | Led cross-functional project teams and managed end-to-end software delivery cycles.  |
-| **Software Engineer I**                   | Contributed to critical infrastructure projects and system integrations.              |
-| *2018 - 2022*                            | Developed robust data synchronization solutions across multiple application platforms.|
-| **Software Technician II**                | Provided technical support and enhancements for primary testing applications.         |
-| *2016 - 2018*                            | Maintained system reliability and implemented performance optimizations.              |
+[Portfolio and résumé](https://jasonrscherer.com/) · [GitHub](https://github.com/schererja) · [LinkedIn](https://www.linkedin.com/in/jasonrscherer/)
