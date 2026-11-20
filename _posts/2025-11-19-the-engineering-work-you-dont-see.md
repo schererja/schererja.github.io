@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Engineering Work You Don’t See"
-date: 2026-11-20 08:00:00 -0800
+date: 2025-11-19 15:43:44 -0800
 description: "What embedded, automation, and internal tools engineers can show when the systems they build aren’t public."
 categories: ["Engineering"]
 tags: ["embedded linux","internal tools","software engineering"]

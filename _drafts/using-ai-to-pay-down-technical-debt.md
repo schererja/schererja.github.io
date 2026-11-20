@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Using AI to Pay Down Technical Debt"
-date: 2026-11-20 08:00:00 -0800
 description: "What I would do with the time AI saves, and why knowledge of the system still matters."
 categories: ["Engineering","AI"]
 tags: ["ai","technical debt","maintenance"]
@@ -19,4 +18,4 @@ People who’ve worked on a system for years know why some of its decisions were
 
 When I think about the value of AI at work, I keep coming back to a simpler question. What could the team finally fix if it had time to do the job properly?
 
-*Adapted from my original LinkedIn post.* [Read the original on LinkedIn](https://www.linkedin.com/posts/jasonrscherer_lookingforwork-ai-lasvegas-activity-7409283317516165121-Bzf2)
+*Adapted from my commentary on a LinkedIn reshare.* [Read the reshare on LinkedIn](https://www.linkedin.com/posts/jasonrscherer_lookingforwork-ai-lasvegas-activity-7409283317516165121-Bzf2)

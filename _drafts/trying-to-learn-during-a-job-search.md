@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Trying to Learn During a Job Search"
-date: 2026-11-20 08:00:00 -0800
 description: "What made it hard to balance learning, side projects, applications, and networking during a job search."
 categories: ["Career"]
 tags: ["job search","learning","side projects"]

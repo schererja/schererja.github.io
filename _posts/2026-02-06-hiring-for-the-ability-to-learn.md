@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hiring for the Ability to Learn"
-date: 2026-11-20 08:00:00 -0800
+date: 2026-02-06 06:56:05 -0800
 description: "Why I think engineering teams should make room for candidates who can pick up unfamiliar systems."
 categories: ["Career"]
 tags: ["hiring","learning","software engineering"]

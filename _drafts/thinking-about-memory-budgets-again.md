@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Thinking About Memory Budgets Again"
-date: 2026-11-20 08:00:00 -0800
 description: "Seeing how prominently AI featured at CES made me think about what software should ask of a machine."
 categories: ["Engineering"]
 tags: ["performance","memory","hardware"]

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Keeping AI-Assisted Code Reviewable"
-date: 2026-11-20 08:00:00 -0800
 description: "Branches, commits, and pull request review gave me a way to stay involved while working with Claude Code and Copilot."
 categories: ["Engineering","AI"]
 tags: ["ai","git","code review"]

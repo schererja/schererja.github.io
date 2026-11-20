@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Giving AI Enough Context to Help"
-date: 2026-11-20 08:00:00 -0800
+date: 2026-01-17 09:45:06 -0800
 description: "How I use AI during project planning, and what context still can’t do on its own."
 categories: ["Engineering","AI"]
 tags: ["ai","planning","developer tools"]

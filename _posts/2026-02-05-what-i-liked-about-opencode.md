@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What I Liked About OpenCode"
-date: 2026-11-20 08:00:00 -0800
+date: 2026-02-05 09:37:24 -0800
 description: "A first impression of OpenCode from using AI for project planning and development."
 categories: ["Engineering","AI"]
 tags: ["opencode","ai","developer tools"]
