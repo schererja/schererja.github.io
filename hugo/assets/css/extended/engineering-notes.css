@@ -1,0 +1,67 @@
+:root {
+    --main-width: 760px;
+    --primary: #142748;
+    --secondary: #445672;
+    --content: #283c56;
+    --border: #cdd9e9;
+    --tertiary: #deebff;
+    --code-bg: #f4f8fe;
+    --writing-accent: #1746a2;
+    --writing-panel: #eaf2ff;
+}
+
+.dark {
+    --primary: #e7efff;
+    --secondary: #bac9e0;
+    --content: #dce6f6;
+    --border: #40516c;
+    --tertiary: #304365;
+    --writing-accent: #a9c5ff;
+    --writing-panel: #202f49;
+}
+
+.header {
+    border-bottom: 1px solid var(--border);
+    background: var(--theme);
+}
+
+.home-info.first-entry {
+    min-height: 0;
+    margin: 1.5rem 0 2rem;
+    padding: clamp(1.25rem, 4vw, 2.5rem);
+    border: 1px solid var(--border);
+    border-inline-start: 4px solid var(--writing-accent);
+    border-radius: var(--radius);
+    background: var(--writing-panel);
+}
+
+.home-info .entry-header h1 {
+    font-size: clamp(2.45rem, 7vw, 4.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.065em;
+}
+
+.home-info .entry-content {
+    font-size: 1.03rem;
+    line-height: 1.65;
+}
+
+.home-info .entry-content a,
+.post-content a {
+    color: var(--writing-accent);
+    text-underline-offset: 0.17em;
+}
+
+.post-entry .entry-header h2 {
+    letter-spacing: -0.025em;
+}
+
+.post-title {
+    font-size: clamp(2rem, 6vw, 3rem);
+    line-height: 1.12;
+    letter-spacing: -0.045em;
+}
+
+.post-content {
+    line-height: 1.75;
+}

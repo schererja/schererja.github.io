@@ -1,0 +1,74 @@
+baseURL = "https://schererja.github.io/"
+locale = "en-US"
+title = "Jason Scherer"
+theme = "PaperMod"
+timeZone = "America/Los_Angeles"
+
+[permalinks.page]
+posts = "/posts/:slug/"
+
+[outputFormats.RSS]
+baseName = "feed"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+pagerSize = 10
+
+[params]
+description = "Engineering notes on backend software, embedded Linux, and what it takes to keep systems running."
+defaultTheme = "light"
+mainSections = ["posts"]
+ShowReadingTime = true
+ShowToc = true
+ShowCodeCopyButtons = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+
+[params.homeInfoParams]
+Title = "Engineering notes"
+Content = """
+I’m Jason Scherer. I write about building software, running infrastructure, and learning what it takes to keep systems working.
+
+[Infrastructure](/categories/infrastructure/) · [Embedded Linux](/categories/embedded-linux/) · [Career](/categories/career/)
+"""
+
+[[params.socialIcons]]
+name = "github"
+title = "GitHub"
+url = "https://github.com/schererja"
+
+[[params.socialIcons]]
+name = "rss"
+title = "RSS feed"
+url = "/feed.xml"
+
+[[menu.main]]
+name = "Archive"
+pageRef = "/archives"
+weight = 10
+
+[[menu.main]]
+name = "Categories"
+pageRef = "/categories"
+weight = 20
+
+[[menu.main]]
+name = "Tags"
+pageRef = "/tags"
+weight = 30
+
+[[menu.main]]
+name = "Search"
+pageRef = "/search"
+weight = 40
+
+[[menu.main]]
+name = "About"
+pageRef = "/about"
+weight = 50
+
+[markup.highlight]
+noClasses = false
+lineNos = false
