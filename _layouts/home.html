@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+{% assign all_visible = site.posts | where_exp: 'post', 'post.hidden != true' %}
+{% assign pinned = all_visible | where: 'pin', true %}
+{% assign unpinned = all_visible | where_exp: 'post', 'post.pin != true' %}
+{% assign ordered_posts = pinned | concat: unpinned %}
+{% assign page_number = paginator.page | default: 1 %}
+{% assign per_page = paginator.per_page | default: ordered_posts.size %}
+{% assign page_start = page_number | minus: 1 | times: per_page %}
+{% assign visible_posts = ordered_posts | slice: page_start, per_page %}
+{% assign lead = visible_posts.first %}
+{% assign list_offset = 0 %}
+
+<div class="writing-home">
+  {% if page_number == 1 %}
+    <header class="writing-intro">
+      <h1>Engineering notes<span aria-hidden="true">.</span></h1>
+      <p>Building software, running infrastructure, and learning what it takes to keep systems working.</p>
+      <nav class="writing-topics" aria-label="Browse by topic">
+        {% assign topics = 'Infrastructure,Engineering,Career' | split: ',' %}
+        {% for topic in topics %}
+          {% if site.categories[topic] %}
+            {% assign topic_slug = topic | slugify %}
+            {% assign topic_url = '/categories/' | append: topic_slug | append: '/' %}
+            <a href="{{ topic_url | relative_url }}">{{ topic | escape }}</a>
+          {% endif %}
+        {% endfor %}
+        <a href="{{ '/archives/' | relative_url }}">Archive</a>
+      </nav>
+    </header>
+
+    {% if lead %}
+      {% assign lead_summary = lead.description | default: lead.excerpt | strip_html | normalize_whitespace %}
+      <section class="writing-feature" aria-labelledby="featured-title">
+        <div class="writing-kicker">
+          <span>{% if lead.pin %}Featured article{% else %}Latest article{% endif %}</span>
+          <time datetime="{{ lead.date | date_to_xmlschema }}">{{ lead.date | date: '%b %-d, %Y' }}</time>
+        </div>
+        <h2 id="featured-title"><a href="{{ lead.url | relative_url }}">{{ lead.title | escape }}</a></h2>
+        <p>{{ lead_summary | truncate: 200 | escape }}</p>
+      </section>
+    {% endif %}
+  {% else %}
+    <header class="writing-intro writing-intro-compact">
+      <h1>Earlier articles</h1>
+      <p>Page {{ page_number }} of {{ paginator.total_pages }}</p>
+    </header>
+  {% endif %}
+
+  <section class="writing-list" aria-labelledby="writing-list-title">
+    {% if page_number == 1 %}
+      {% if lead %}{% assign list_offset = 1 %}{% endif %}
+      <h2 id="writing-list-title">More writing</h2>
+    {% else %}
+      <h2 id="writing-list-title" class="visually-hidden">Article list</h2>
+    {% endif %}
+    <ul>
+      {% for post in visible_posts offset: list_offset %}
+        {% assign summary = post.description | default: post.excerpt | strip_html | normalize_whitespace %}
+        <li>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d, %Y' }}</time>
+          <div>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            {% if summary != empty %}<p>{{ summary | truncate: 150 | escape }}</p>{% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {% if paginator.total_pages > 1 %}
+    {% include post-paginator.html %}
+  {% endif %}
+</div>

@@ -17,15 +17,15 @@ timezone:
 title: Jason Scherer # the main title
 
 tagline:
-  Senior Software Engineer | Embedded Linux (Yocto) | Golang Backend | CI/CD Automation | Hardware Integration
+  Backend, embedded Linux, and infrastructure
   # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Engineering notes by Jason Scherer on backend software, embedded Linux, infrastructure, and working in software.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://schererja.github.io"
 
 github:
   username: schererja # change to your GitHub username
